@@ -1,0 +1,1 @@
+{ "name": "cache-keeper", "version": "0.1.0", "description": "Таймер прогрева кэша, заполнение контекста, лимиты и кнопка переноса сессии", "author": { "name": "Amir Aktay" }, "types": "./types/index.d.ts" }

@@ -1,0 +1,1 @@
+{ "name": "collision-guard", "version": "0.1.0", "description": "Предупреждает, если файл недавно менял другой чат Claude Code", "author": { "name": "Amir Aktay" }, "types": "./types/index.d.ts" }

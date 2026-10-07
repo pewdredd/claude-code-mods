@@ -1,0 +1,1 @@
+{ "name": "recording-mode", "version": "0.1.0", "description": "Режим записи: прячет почты, ключи и номера в транскрипте (/record on|off)", "author": { "name": "Amir Aktay" }, "types": "./types/index.d.ts" }

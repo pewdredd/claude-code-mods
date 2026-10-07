@@ -1,0 +1,1 @@
+{ "name": "goal-meter", "version": "0.1.0", "description": "Цель с прогресс-баром: /goal-meter <цель> разбивает на шаги и отмечает готовые", "author": { "name": "Amir Aktay" }, "types": "./types/index.d.ts" }

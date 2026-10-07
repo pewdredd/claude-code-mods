@@ -1,0 +1,34 @@
+{
+  "name": "aktay-mods",
+  "owner": {
+    "name": "Amir Aktay"
+  },
+  "description": "Пять модов для Claude Code: кэш и лимиты, режим записи, прогресс цели, следующие шаги, защита от правок из другого чата",
+  "plugins": [
+    {
+      "name": "cache-keeper",
+      "source": "./cache-keeper",
+      "description": "Таймер прогрева кэша, заполнение контекста, лимиты и кнопка переноса сессии"
+    },
+    {
+      "name": "collision-guard",
+      "source": "./collision-guard",
+      "description": "Предупреждает, если файл недавно менял другой чат Claude Code"
+    },
+    {
+      "name": "goal-meter",
+      "source": "./goal-meter",
+      "description": "Цель с прогресс-баром: /goal-meter <цель> разбивает на шаги и отмечает готовые"
+    },
+    {
+      "name": "next-steps",
+      "source": "./next-steps",
+      "description": "Кнопки со следующими шагами над полем ввода после каждого ответа"
+    },
+    {
+      "name": "recording-mode",
+      "source": "./recording-mode",
+      "description": "Режим записи: прячет почты, ключи и номера в транскрипте (/record on|off)"
+    }
+  ]
+}

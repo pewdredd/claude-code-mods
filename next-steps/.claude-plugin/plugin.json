@@ -1,0 +1,1 @@
+{ "name": "next-steps", "version": "0.1.0", "description": "Кнопки со следующими шагами над полем ввода после каждого ответа", "author": { "name": "Amir Aktay" }, "types": "./types/index.d.ts" }
