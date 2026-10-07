@@ -46,19 +46,4 @@ export const register: Register = on => {
       ? next({ ...e, props: { ...e.props, output: mask(e.props.output) } })
       : next(e),
   )
-
-  // красная метка REC над полем ввода, пока режим включён
-  on('ui.render', { component: 'AbovePrompt' }, async ($, e, next) => {
-    if (e.props.hasSurvey || !(await read($, isOn))) return next(e)
-    const { Box, Text } = $.ui.resolve(e)
-    return (
-      <Box flexDirection="column">
-        <Text>
-          <Text color="error" bold>● REC</Text>
-          <Text dimColor>  личное скрыто</Text>
-        </Text>
-        {await next(e)}
-      </Box>
-    )
-  })
 }
